@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run build:prod",
+  "outputDirectory": "frontend/dist",
+  "framework": "vue",
+  "nodeVersion": "18.x",
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
